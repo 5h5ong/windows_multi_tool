@@ -6,7 +6,7 @@ SetWorkingDir A_ScriptDir  ; Ensures a consistent starting directory.
 
 ; Change Hangul to F12
 ; For Doom Emacs to ignore native IME and use Korean input
-#HotIf WinActive("Doom Emacs")
+#HotIf WinActive("ahk_exe msrdc.exe")
     SC138::F13
 #HotIf
 
